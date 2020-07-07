@@ -1,4 +1,6 @@
 package com.giftofhappiness.geoquiz
 
-class Question {
+import androidx.annotation.StringRes
+
+class Question (@StringRes val textResID : Int, val answer : Boolean) {
 }
